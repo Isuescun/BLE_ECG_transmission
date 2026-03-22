@@ -107,6 +107,7 @@ Send from PC terminal or plot UI → central forwards to XIAO over BLE:
 - [x] Packet counter + drop detection
 - [x] Battery level on demand
 - [x] Bidirectional command pipeline
-- [ ] INTAN SPI interface — pending hardware
+- [ ] BLE streaming to 64 channels
+- [ ] BLE streaming to 128 channels
 - [ ] Impedance measurement — pending hardware
 - [ ] UI integration
