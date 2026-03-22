@@ -5,10 +5,10 @@ Firmware and plotting tools for a wireless multi-channel ECG acquisition system.
 ## System architecture
 
 ```
-Electrodes → INTAN RHD2000 → (SPI) → XIAO nRF52840 → (BLE) → ESP32 Central → (USB Serial) → PC / UI
+Electrodes → SIgnal Acquisition → (SPI) → XIAO nRF52840 → (BLE) → ESP32 Central → (USB Serial) → PC / UI
 ```
 
-> Note: INTAN SPI interface is pending hardware arrival. The peripheral currently generates a fake sine wave per channel for pipeline testing.
+> Note: The peripheral currently generates a fake sine wave per channel for pipeline testing.
 
 ## Repository structure
 
