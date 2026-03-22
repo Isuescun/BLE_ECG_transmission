@@ -31,7 +31,8 @@ plot/
 
 ### 1. Flash the firmware
 
-Open each firmware folder as a PlatformIO project in VS Code.
+Open each firmware folder as a PlatformIO project in VS Code. 
+Or open each file in Arduino IDE
 
 **Peripheral** (`platformio.ini`):
 ```ini
