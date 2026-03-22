@@ -1,5 +1,4 @@
 # BLE_sineWaves
-# ECG Firmware
 
 Firmware and plotting tools for a wireless multi-channel ECG acquisition system. Streams 19 channels of 16-bit biosignal data at 1kHz over BLE from a XIAO nRF52840 peripheral to an ESP32 central, forwarded to a PC via USB serial.
 
